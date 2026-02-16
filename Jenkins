@@ -7,14 +7,14 @@ stage("build")
 {
 steps
 {
-echo "build sucessfully "
+echo "javac HelloWorld.java "
 }
 }
 stage("test")
 {
 steps
 {
-echo "tested"
+echo "java HelloWorld"
 }
 }
 }
